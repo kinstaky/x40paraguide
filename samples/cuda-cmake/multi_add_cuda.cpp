@@ -44,10 +44,10 @@ int main() {
 	std::cout << d[0] << " " << d[1] << " " << d[2] << "\n";
 
     // free spaces with c++ method
-	delete a;
-	delete b;
-	delete c;
-	delete d;
+	delete[] a;
+	delete[] b;
+	delete[] c;
+	delete[] d;
 
 	return 0;
 }
